@@ -3,6 +3,7 @@
 _**Temas**_: _strings_, _bucles_, _condicionales_
 
 Realizar un programa que reciba una palabra o frase y que se construya una triangulo con la palabra, pudiendo leerse la palabra por cada lado del triangulo.
+
 ![](img/string.png)
 
 ## Entrada
@@ -23,14 +24,7 @@ Realizar un programa que reciba una palabra o frase y que se construya una trian
 
 ### Salida 0
 
->        P
->       r r
->      o   o
->     g     g
->    r       r
->   a         a
->  m           m
-> amargorPrograma
+![](img/triangulo_palabras.png)
 
 ### Explicación
 
