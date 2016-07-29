@@ -1,3 +1,4 @@
-# **Estructura de Datos y Algoritmia** #
-
-RECOPILACIÓN DE EJERCICIOS EN C
+---
+title: Estructura de Datos y Algoritmia
+autor: RECOPILACIÓN DE EJERCICIOS EN C
+---
