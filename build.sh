@@ -15,6 +15,9 @@ FILES="00_portada.md \
     09_ejercicio.md \
     10_ejercicio.md \
     11_ejercicio.md \
+    12_ejercicio.md \
+    13_ejercicio.md \
+    14_ejercicio.md \
     16_ejercicio.md \
     17_ejercicio.md
     "
