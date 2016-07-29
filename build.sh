@@ -1,17 +1,33 @@
 #! /bin/bash
 
-FILES="src/00_portada.md \
-    src/00.1_legal.md \
-    src/00.2_agredecimientos.md \
-    src/01_prologo.md \
-    src/03_ejercicio.md \
-    src/04_ejercicio.md \
-    src/05_ejercicio.md \
-    src/06_ejercicio.md \
-    src/07_ejercicio.md \
-    src/08_ejercicio.md"
+cd src/
 
-OUTPUT="build/edabook.pdf"
-FLAGS="-f markdown_github --toc --chapters -V lang=es"
+FILES="00_portada.md \
+    00.1_legal.md \
+    00.2_agredecimientos.md \
+    01_prologo.md \
+    03_ejercicio.md \
+    04_ejercicio.md \
+    05_ejercicio.md \
+    06_ejercicio.md \
+    07_ejercicio.md \
+    08_ejercicio.md \
+    09_ejercicio.md \
+    10_ejercicio.md \
+    11_ejercicio.md \
+    16_ejercicio.md \
+    17_ejercicio.md
+    "
+
+OUTPUT="../build/edabook.pdf"
+
+FLAGS="--template=../template.latex \
+    -f markdown \
+    --toc --toc-depth=2 \
+    --section-divs \
+    --chapters \
+    -V lang=es \
+    -V documentclass=book \
+    -V secnumdepth=2"
 
 pandoc -o $OUTPUT $FLAGS $FILES
