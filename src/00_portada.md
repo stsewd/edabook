@@ -1,3 +1,3 @@
-# Estructura de Datos y Algoritmia #
+# **Estructura de Datos y Algoritmia** #
 
-Recopilación de ejercicios en C
+RECOPILACIÓN DE EJERCICIOS EN C
