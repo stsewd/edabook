@@ -22,7 +22,8 @@ FILES="00_portada.md \
     16_ejercicio.md \
     17_ejercicio.md \
     18_ejercicio.md \
-    19_ejercicio.md
+    19_ejercicio.md \
+    20_ejercicio.md
     "
 
 OUTPUT="../build/edabook.pdf"
