@@ -117,18 +117,22 @@ int main() {
 
             for(i=1; i<=bordes; i++){
                 if (borde[i][DESDE] == activado){
-                    if (nodo[borde[i][TO]][DISTANCIA] > nodo[borde[i][DESDE]][DISTANCIA]+ESP ||
+                    if (nodo[borde[i][TO]][DISTANCIA] >
+                        nodo[borde[i][DESDE]][DISTANCIA]+ESP ||
                         nodo[borde[i][TO]][DISTANCIA]==-1
                     ){
-                        nodo[borde[i][TO]][DISTANCIA]=nodo[borde[i][DESDE]][DISTANCIA]+ESP;
+                        nodo[borde[i][TO]][DISTANCIA] =
+                        nodo[borde[i][DESDE]][DISTANCIA]+ESP;
                     }
                 }
 
                 if (borde[i][TO] == activado){
-                    if(nodo[borde[i][DESDE]][DISTANCIA]>nodo[borde[i][TO]][DISTANCIA]+ESP ||
+                    if(nodo[borde[i][DESDE]][DISTANCIA] >
+                        nodo[borde[i][TO]][DISTANCIA]+ESP ||
                         nodo[borde[i][DESDE]][DISTANCIA]==-1
                     ){
-                        nodo[borde[i][DESDE]][DISTANCIA]=nodo[borde[i][TO]][DISTANCIA]+ESP;
+                        nodo[borde[i][DESDE]][DISTANCIA] =
+                        nodo[borde[i][TO]][DISTANCIA]+ESP;
                     }
                 }
             }
