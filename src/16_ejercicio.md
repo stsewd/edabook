@@ -5,7 +5,7 @@ _**Temas**_: _bucles_, _arreglos_
 **Rangoli** es una forma de arte popular de la India basada en la creación de patrones.
 Se desea realizar un algoritmo (Desarrollado en Lenguaje C) el cual muestre en pantalla como el siguiente ejemplo.
 
-![](img\rangoli_1.png)
+![](img/rangoli_1.png)
 
 ## Entrada
 
@@ -25,7 +25,7 @@ Se desea realizar un algoritmo (Desarrollado en Lenguaje C) el cual muestre en p
 
 ### Salida 0
 
-![](img\rangoli_2.png)
+![](img/rangoli_2.png)
 
 ---
 

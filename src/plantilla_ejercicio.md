@@ -4,7 +4,7 @@ _**Temas**_: _tema1_, _tema2_
 
 Enunciado del ejercicio, **negrita**, algo en _cursiva_.
 Ejemplo de imagen:
-![](img\bat.png)
+![](img/bat.png)
 
 ## Entrada
 
