@@ -19,7 +19,9 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 ### Entrada 0
 
 > 3
+>
 > 1
+>
 > 2
 
 ### Salida 0
@@ -30,16 +32,22 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 
 > Todas las posibles series de piedras son:
 > 0, 1, 2
+>
 > 0, 1, 3
+>
 > 0, 2, 3
+>
 > 0, 2, 4
 > Entonces, los posibles valores de la última piedra son: 2, 3, 4
 
 ### Entrada 1
 
 > 6
+>
 > 4
+>
 > 8
+>
 
 ### Salida 1
 
@@ -48,7 +56,9 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 ### Entrada 2
 
 > 11
+>
 > 3
+>
 > 10
 
 ### Salida 2
@@ -58,7 +68,9 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 ### Entrada 3
 
 > 100
+>
 > 1
+>
 > 1
 
 ### Salida 3

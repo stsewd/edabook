@@ -11,8 +11,11 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla que conteng
 ## Salida
 
 > Mensaje que indica la frase original, la cadena de mayúsculas y la de minúsculas por separado.
+>
 > Frase:
+>
 > Mayúsculas:
+>
 > Minúsculas:
 
 ---
@@ -26,7 +29,9 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla que conteng
 ### Salida 0
 
 > Frase: hoLAmUNDo
+>
 > Mayusculas: LAUND
+>
 > Minusculas: homo
 
 ### Entrada 1
@@ -36,7 +41,9 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla que conteng
 ### Salida 0
 
 > Frase: HOLA
+>
 > Mayusculas: HOLA
+> 
 > Minusculas:
 
 ## Solución

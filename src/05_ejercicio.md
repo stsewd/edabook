@@ -19,7 +19,9 @@ En una cárcel hay **N** prisioneros, y cada uno tiene un identificador único *
 ### Entrada 0
 
 > 5
+>
 > 4
+>
 > 3
 
 ### Salida 0
@@ -33,7 +35,9 @@ En una cárcel hay **N** prisioneros, y cada uno tiene un identificador único *
 ### Entrada 1
 
 > 54
+>
 > 111
+>
 > 6
 
 ### Salida 1
@@ -43,7 +47,9 @@ En una cárcel hay **N** prisioneros, y cada uno tiene un identificador único *
 ### Entrada 2
 
 > 499999999
+>
 > 999999998
+>
 > 2
 
 ### Salida 2
@@ -53,7 +59,9 @@ En una cárcel hay **N** prisioneros, y cada uno tiene un identificador único *
 ### Entrada 3
 
 > 287704511
+>
 > 903048419
+>
 > 110994298
 
 ### Salida 3

@@ -38,18 +38,27 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave
 ## Entrada
 
 > Cifrado:
+>
 > > mensaje
+>
 > > clave
 
+
 > Descifrado:
+>
 > > mensaje
+>
 > > clave
 
 ## Salida
+
 > Cifrado:
+>
 > > mensaje cifrado
 
+
 > Descifrado:
+>
 > > texto claro
 
 ---
@@ -58,25 +67,31 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave
 
 ### Entrada 0
 > Cifrado:
+>
 > > mensaje: david
+>
 > > clave: hola
 
 
 ### Salida 0
 
 > Cifrado:
+>
 > > mensajeCifrado: 0414161804
 
 ### Entrada 1
 > Descifrado:
+>
 > > mensaje: 0414161804
+>
 > > clave: hola
 
 
 ### Salida 1
 
 > Descifrado:
-> > textoClaro: david
+>
+>> textoClaro: david
 
 ## Solución
 

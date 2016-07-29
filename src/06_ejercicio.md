@@ -19,6 +19,7 @@ Se pide crear una matriz caracol, que consiste en ingresar el el número de fila
 ### Entrada 0
 
 > 3
+>
 > 4
 
 ### Salida 0
@@ -30,6 +31,7 @@ Se pide crear una matriz caracol, que consiste en ingresar el el número de fila
 ### Entrada 1
 
 > 5
+> 
 > 5
 
 ### Salida 1

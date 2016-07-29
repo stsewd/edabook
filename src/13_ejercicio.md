@@ -21,7 +21,9 @@ Se pide desarrollar un algoritmo que lea tres números y determine si la suma de
 ### Entrada 0
 
 > 1
+>
 > 2
+>
 > 3
 
 ### Salida 0
@@ -31,7 +33,9 @@ Se pide desarrollar un algoritmo que lea tres números y determine si la suma de
 ### Entrada 1
 
 > 3
+>
 > 4
+>
 > 5
 
 ### Salida 1

@@ -19,8 +19,11 @@ Bob ama el chocolate, y se dirige a la tienda con **$N**. El precio de cada choc
 ### Entrada 0
 
 > 6
+>
 > 2
+>
 > 2
+>
 
 ### Salida 0
 
@@ -33,7 +36,9 @@ Bob ama el chocolate, y se dirige a la tienda con **$N**. El precio de cada choc
 ### Entrada 1
 
 > 37
+>
 > 3
+>
 > 7
 
 ### Salida 1
@@ -43,7 +48,9 @@ Bob ama el chocolate, y se dirige a la tienda con **$N**. El precio de cada choc
 ### Entrada 2
 
 > 369
+>
 > 96
+>
 > 33
 
 ### Salida 2
@@ -53,7 +60,9 @@ Bob ama el chocolate, y se dirige a la tienda con **$N**. El precio de cada choc
 ### Entrada 3
 
 > 44112
+>
 > 389
+>
 > 22785
 
 ### Salida 3

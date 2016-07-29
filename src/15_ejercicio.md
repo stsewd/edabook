@@ -11,11 +11,11 @@ Se requiere para el cálculo de la distancia más corta desde la posición de in
 
 ## Restriciones
 > 1 <= T <= 10
-
+>
 > 2 <= N <= 1000
-
+>
 > 1 <= M <= (N x (N-1))/2
-
+>
 > 1 <= x, y, S <= N
 
 ## Entrada

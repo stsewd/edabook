@@ -23,9 +23,13 @@ Leer un archivo .txt y contabilizar el número de cada vocal que contiene el arc
 ### Salida 0
 
 > a=2
+>
 > e=0
+>
 > i=5
+>
 > o=1
+> 
 > u=1
 
 

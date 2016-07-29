@@ -25,11 +25,12 @@ FILES="00_portada.md \
 OUTPUT="../build/edabook.pdf"
 
 FLAGS="--template=../template.latex \
+    -H ../titlesec.tex \
     -f markdown \
     --toc --toc-depth=2 \
     --chapters \
     -V lang=es \
-    -V documentclass=book \
+    -V documentclass=report \
     -V secnumdepth=2"
 
 pandoc -o $OUTPUT $FLAGS $FILES

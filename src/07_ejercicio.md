@@ -23,8 +23,11 @@ Ingresar el número de nodos de la matriz, luego crear una matriz de adyacencia 
 Pesos de la Matriz de Adyacencia
 
 > 1
+>
 > 2
+>
 > 1
+>
 > 2
 
 ### Salida 0
@@ -38,14 +41,23 @@ Pesos de la Matriz de Adyacencia
 ### Entrada 1
 
 > 3
+>
 > 1
+>
 > 2
+>
 > 3
+>
 > 2
+>
 > 2
+>
 > 2
+>
 > 3
+>
 > 2
+>
 > 1
 
 ### Salida 1
