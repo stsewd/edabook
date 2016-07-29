@@ -18,6 +18,7 @@ FILES="00_portada.md \
     12_ejercicio.md \
     13_ejercicio.md \
     14_ejercicio.md \
+    15_ejercicio.md \
     16_ejercicio.md \
     17_ejercicio.md \
     18_ejercicio.md \
