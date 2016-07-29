@@ -4,7 +4,7 @@ cd src/
 
 FILES="00_portada.md \
     00.1_legal.md \
-    00.2_agredecimientos.md \
+    00.2_agredecimiento.md \
     01_prologo.md \
     03_ejercicio.md \
     04_ejercicio.md \
