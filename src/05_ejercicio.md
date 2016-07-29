@@ -80,9 +80,14 @@ int main() {
     int num_caramelos;
     int id_prisionero;
 
-    printf("Numero de prisioneros: "); scanf("%d", &num_prisioneros);
-    printf("Numero de caramelos: "); scanf("%d", &num_caramelos);
-    printf("ID de prisionero: "); scanf("%d", &id_prisionero);
+    printf("Numero de prisioneros: ");
+    scanf("%d", &num_prisioneros);
+
+    printf("Numero de caramelos: ");
+    scanf("%d", &num_caramelos);
+
+    printf("ID de prisionero: ");
+    scanf("%d", &id_prisionero);
 
     int id_ultimo_prisionero;
 

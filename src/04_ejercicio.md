@@ -82,9 +82,14 @@ int main() {
     int valor_por_chocolate;
     int envolturas_para_promocion;
 
-    printf("Dinero total:"); scanf("%d", &dinero_total);
-    printf("Valor de cada chocolate:"); scanf("%d", &valor_por_chocolate);
-    printf("Numero de envolturas para promocion:"); scanf("%d", &envolturas_para_promocion);
+    printf("Dinero total:");
+    scanf("%d", &dinero_total);
+
+    printf("Valor de cada chocolate:");
+    scanf("%d", &valor_por_chocolate);
+
+    printf("Numero de envolturas para promocion:");
+    scanf("%d", &envolturas_para_promocion);
 
     int chocolates_obtenidos = dinero_total/valor_por_chocolate;
     int envolturas = chocolates_obtenidos;

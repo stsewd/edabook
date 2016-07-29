@@ -105,27 +105,37 @@ int main() {
             activado = 0;
             min = -1;
             for(i=1; i <= nodos; i++){
-                if(nodo[i][ESTADO]==PENDIENTE && nodo[i][DISTANCIA]!=-1 && nodo[i][DISTANCIA]<min){
+                if (nodo[i][ESTADO]==PENDIENTE &&
+                    nodo[i][DISTANCIA]!=-1 &&
+                    nodo[i][DISTANCIA]<min
+                ){
+
                     min = nodo[i][DISTANCIA];
                     activado = i;
                 }
             }
 
             for(i=1; i<=bordes; i++){
-                if(borde[i][DESDE]==activado){
-                    if(nodo[borde[i][TO]][DISTANCIA]>nodo[borde[i][DESDE]][DISTANCIA]+ESP || nodo[borde[i][TO]][DISTANCIA]==-1){
+                if (borde[i][DESDE] == activado){
+                    if (nodo[borde[i][TO]][DISTANCIA] > nodo[borde[i][DESDE]][DISTANCIA]+ESP ||
+                        nodo[borde[i][TO]][DISTANCIA]==-1
+                    ){
                         nodo[borde[i][TO]][DISTANCIA]=nodo[borde[i][DESDE]][DISTANCIA]+ESP;
                     }
                 }
-                if(borde[i][TO]==activado){
-                    if(nodo[borde[i][DESDE]][DISTANCIA]>nodo[borde[i][TO]][DISTANCIA]+ESP || nodo[borde[i][DESDE]][DISTANCIA]==-1){
+
+                if (borde[i][TO] == activado){
+                    if(nodo[borde[i][DESDE]][DISTANCIA]>nodo[borde[i][TO]][DISTANCIA]+ESP ||
+                        nodo[borde[i][DESDE]][DISTANCIA]==-1
+                    ){
                         nodo[borde[i][DESDE]][DISTANCIA]=nodo[borde[i][TO]][DISTANCIA]+ESP;
                     }
                 }
             }
-            nodo[activado][ESTADO] = AGOTADO;
 
+            nodo[activado][ESTADO] = AGOTADO;
         }
+
         for(i=1; i<=nodos; i++){
             if(i!=origen)printf("%i ", nodo[i][DISTANCIA]);
         }

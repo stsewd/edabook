@@ -31,6 +31,7 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 ### Explicación
 
 > Todas las posibles series de piedras son:
+>
 > 0, 1, 2
 >
 > 0, 1, 3
@@ -38,7 +39,10 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 > 0, 2, 3
 >
 > 0, 2, 4
-> Entonces, los posibles valores de la última piedra son: 2, 3, 4
+>
+> Entonces, los posibles valores de la última piedra son:
+>
+> 2, 3, 4
 
 ### Entrada 1
 
@@ -99,7 +103,10 @@ int main() {
     if(numero_a == numero_b){
         printf("%d ", min_ultima_piedra);
     }else {
-        for (int i = min_ultima_piedra; i <= max_ultima_piedra; i += (numero_b - numero_a)) {
+        for ( i = min_ultima_piedra;
+            i <= max_ultima_piedra;
+            i += (numero_b - numero_a) {
+
             printf("%d ", i);
         }
     }

@@ -80,6 +80,7 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave
 > > mensajeCifrado: 0414161804
 
 ### Entrada 1
+
 > Descifrado:
 >
 > > mensaje: 0414161804
@@ -128,7 +129,10 @@ void cifrar(char mensaje [MAX], char clave [MAX]){
     char resultadoStr[3];
 
     mensajeCifrado[0]='\0';  //no es lo mismo "\0" que '\0'
-    for(indiceMensaje=0;indiceMensaje<tamanioMensaje;indiceMensaje++){
+    for(indiceMensaje = 0;
+        indiceMensaje < tamanioMensaje;
+        indiceMensaje++
+    ){
 
         indiceClave = indiceMensaje%tamanioClave;
 
@@ -139,13 +143,13 @@ void cifrar(char mensaje [MAX], char clave [MAX]){
         if(resultado<0){
             resultado = resultado + 26;  //26 = tamanio abecedario
         }
+
         itoa(resultado,resultadoStr,10);
         if(resultado<10){
             resultadoStr[0]='0';
             itoa(resultado,&resultadoStr[1],10);
             resultadoStr[2]='\0';
         }
-        //concatear cadena mensaje cifrado
         strcat(mensajeCifrado,resultadoStr);
     }
     printf("\nmensajeCifrado: %s\n",mensajeCifrado);
@@ -167,7 +171,10 @@ void descifrar(char mensajeCifrado [MAX*2], char clave [MAX]){
     char letra[3];
     char letraResultante;
     int i = 0;
-    for(indiceMensajeCifrado=0;indiceMensajeCifrado<tamanioMensajeCifrado;indiceMensajeCifrado+=2){
+    for(indiceMensajeCifrado=0;
+        indiceMensajeCifrado<tamanioMensajeCifrado;
+        indiceMensajeCifrado+=2
+    ){
 
         indiceClave = (indiceMensajeCifrado+(tamanioClave-i)) % tamanioClave;
         i++;

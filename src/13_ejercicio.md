@@ -45,36 +45,33 @@ Se pide desarrollar un algoritmo que lea tres números y determine si la suma de
 ## Solución
 
 ```C
-// Inclusión de las librerias necesarias para el programa
-    #include <stdio.h>
-    #include <stdlib.h>
-// Funcion principal del programa
-    int main(int argc, char *argv[]){
-// Declaracion de las variables a utilizar por el programa      
-// sintaxis: TipoVariable NombreVariable[=ValorInicial];
-        int Numero1=0;
-        int Numero2=0;
-        int Numero3=0;
-        int Existe=0;  
-// Valor que se utilizar como variable booleana
-// Solicitud de los numeros por pantalla utilizando para realizar
-        printf("\nTeclee No. 1 : ");
-        scanf(" %d",&Numero1);
-        printf("Teclee No. 2 : ");
-        scanf(" %d",&Numero2);
-        printf("Teclee No. 3 : ");
-        scanf(" %d",&Numero3);
-// Realizar las sumas de los pares de numeros posibles y sus
-// comparaciones para saber si hay alguno igual
-        if((Numero1+Numero2)==Numero3 || (Numero1+Numero3)==Numero3 ||
-           (Numero2+Numero3)==Numero3) {
-             printf("\nLa comparacion ha sido CORRECTA");
-        } else {
-               printf("\nLa comparacion ha sido INCORRECTA");
-        }
-// Se realiza una pausa en pantalla
-      system("PAUSE");
-      return 0;
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]){
+    int Numero1=0;
+    int Numero2=0;
+    int Numero3=0;
+    int Existe=0;  
+
+    printf("\nTeclee No. 1 : ");
+    scanf(" %d",&Numero1);
+
+    printf("Teclee No. 2 : ");
+    scanf(" %d",&Numero2);
+    
+    printf("Teclee No. 3 : ");
+    scanf(" %d",&Numero3);
+
+    if ((Numero1+Numero2)==Numero3 || (Numero1+Numero3)==Numero3 ||
+       (Numero2+Numero3)==Numero3) {
+
+         printf("\nLa comparacion ha sido CORRECTA");
+    } else {
+           printf("\nLa comparacion ha sido INCORRECTA");
     }
+
+    return 0;
+}
 
 ```

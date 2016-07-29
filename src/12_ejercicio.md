@@ -52,42 +52,43 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla que conteng
 #include <stdio.h>
 #include <stdlib.h>
 int main(int argc, char *argv[]){
-    // Definir las variables a utilizar
     char Frase[80];
     char Mayusculas[80];
     char Minusculas[80];
-    // Variables auxiliares como contadores
+
     int ConFrase;
     int ConMayus;
     int ConMinus;
-    // Solicitar la frase por pantalla
+
     printf("\nFrase:");
     scanf(" %[^\n]",Frase);
-    // Traspasar minusculas y mayusculas
-    // a sus repectivos vectores o matrices
+
     ConMayus=0;
     ConMinus=0;
     ConFrase=0;
     while(Frase[ConFrase]!='\0') {
-    // Si es una letra en mayúsculas
-        if((Frase[ConFrase]>='A' && Frase[ConFrase]<='Z') || Frase[ConFrase]=='Ñ') {
+
+        if (Frase[ConFrase]>='A' && Frase[ConFrase]<='Z') ||
+            Frase[ConFrase]=='Ñ') {
+
             Mayusculas[ConMayus++]=Frase[ConFrase];
             Mayusculas[ConMayus]='\0';
         }
-        // Si es una letra en minúsculas
-        if((Frase[ConFrase]>='a' && Frase[ConFrase]<='z') || Frase[ConFrase]=='ñ') {
+
+        if ((Frase[ConFrase]>='a' && Frase[ConFrase]<='z') ||
+            Frase[ConFrase]=='ñ') {
+
             Minusculas[ConMinus++]=Frase[ConFrase];
             Minusculas[ConMinus]='\0';
         }
-        // Aumentar contador de letras de la frase
+
         ConFrase++;
     }
-    // Visualizar las frases correspondientes
+
     printf("\nFrase: %s",Frase);
     printf("\nMayusculas: %s",Mayusculas);
     printf("\nMinusculas: %s",Minusculas);
     printf("\n");
-    system("PAUSE");
     return 0;
 }
 ```

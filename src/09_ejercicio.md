@@ -1,4 +1,4 @@
-# Lectura de Archivos
+# Lectura de archivos
 
 _**Temas**_: _archivos_, _chars_
 
@@ -19,6 +19,13 @@ Leer un archivo .txt y contabilizar el número de cada vocal que contiene el arc
 ### Entrada 0
 
 > Ingrese el nombre del archivo: archivo.txt
+>
+> _archivo.txt_
+> > A  I OU
+> > I
+> > ai
+> > i
+> > I
 
 ### Salida 0
 
@@ -29,7 +36,7 @@ Leer un archivo .txt y contabilizar el número de cada vocal que contiene el arc
 > i=5
 >
 > o=1
-> 
+>
 > u=1
 
 
@@ -94,7 +101,7 @@ void contarVocales(char nombre[200] ){
 int main(){
 	char numero[100], archivo[200]="";
 	int comprobar;
-	printf("\nIngrese el nombre o direccion donde se encuentra el archivo con la extension '.txt': \n");
+	printf("\nIngrese la ruta del archivo: \n");
 	gets(archivo);
 	comprobar= existe(archivo);
 	if(comprobar==1){

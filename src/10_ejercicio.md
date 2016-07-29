@@ -53,7 +53,7 @@ Se debe realizar un programa recursivo que pida el numero de la matriz que será
 > 1  3  9  9  9
 >
 > 1  3  9  27 27
-> 
+>
 > 1  3  9  27 81
 
 ---
@@ -84,17 +84,30 @@ int main(){
     imprime(nmatriz);
 	return 0;
 }
-int recorrido(int numero, int exponente,int nmatriz, int base,int fila, int columna){
 
-    if(numero==nmatriz){
+int recorrido(
+        int numero,
+        int exponente,
+        int nmatriz,
+        int base,
+        int fila,
+        int columna
+){
+
+    if(numero==nmatriz)
         return 1;
-    }
-    else{
+    else
         llenado(numero,exponente,nmatriz,base,fila,columna);
-
-    }
 }
-int llenado(int numero, int exponente, int nmatriz, int base,int fila,int columna){
+
+int llenado(
+        int numero,
+        int exponente,
+        int nmatriz,
+        int base,
+        int fila,
+        int columna
+){
 
     if(columna==nmatriz){
         numero+=1;
@@ -102,9 +115,7 @@ int llenado(int numero, int exponente, int nmatriz, int base,int fila,int column
         columna=fila;
         exponente=exponente*base;
         return recorrido(numero,exponente,nmatriz,base,fila,columna);
-    }
-    else{
-
+    } else {
         matriz[fila][columna]=exponente;
         matriz[columna][fila]=exponente;
         columna+=1;
@@ -112,6 +123,7 @@ int llenado(int numero, int exponente, int nmatriz, int base,int fila,int column
     }
 
 }
+
 void imprime(int nmatriz){
     int i,j;
     for(i=0;i<nmatriz;i++){
