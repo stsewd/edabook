@@ -45,6 +45,26 @@ Carla se encuentra con un camino de piedras marcadas con números. Empieza a seg
 
 > 20 24 28 32 36 40
 
+### Entrada 2
+
+> 11
+> 3
+> 10
+
+### Salida 2
+
+> 30 37 44 51 58 65 72 79 86 93 100
+
+### Entrada 3
+
+> 100
+> 1
+> 1
+
+### Salida 3
+
+> 99
+
 ---
 
 ## Solución
