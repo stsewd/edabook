@@ -38,12 +38,12 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla que conteng
 
 > HOLA
 
-### Salida 0
+### Salida 1
 
 > Frase: HOLA
 >
 > Mayusculas: HOLA
-> 
+>
 > Minusculas:
 
 ## Solución

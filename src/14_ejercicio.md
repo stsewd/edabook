@@ -128,7 +128,6 @@ void cifrar(char mensaje [MAX], char clave [MAX]){
     char resultadoStr[3];
 
     mensajeCifrado[0]='\0';  //no es lo mismo "\0" que '\0'
-    //string letra;
     for(indiceMensaje=0;indiceMensaje<tamanioMensaje;indiceMensaje++){
 
         indiceClave = indiceMensaje%tamanioClave;
@@ -181,7 +180,6 @@ void descifrar(char mensajeCifrado [MAX*2], char clave [MAX]){
 
         //convertir char a int
         int letraInt = atoi(letra);
-        //
         asciiIndiceClave = clave[indiceClave];
         int resultado = (asciiIndiceClave - letraInt);
         if(resultado<97){
