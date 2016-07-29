@@ -1,4 +1,4 @@
-# Verificar Grafo Dirigido
+# Grafo dirigido
 
 _**Temas**_: _grafos_
 
