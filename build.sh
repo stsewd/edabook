@@ -24,7 +24,6 @@ OUTPUT="../build/edabook.pdf"
 FLAGS="--template=../template.latex \
     -f markdown \
     --toc --toc-depth=2 \
-    --section-divs \
     --chapters \
     -V lang=es \
     -V documentclass=book \
