@@ -25,7 +25,7 @@ Se desea realizar un algoritmo (Desarrollado en Lenguaje C) el cual muestre en p
 
 ### Salida 0
 
-![](img/rangoli_2.png)
+- ![](img/rangoli_2.png)
 
 ---
 
