@@ -1,4 +1,4 @@
-# Triangulo de astericos
+# Triángulo de asteriscos
 
 _**Temas**_: _recursividad_
 
