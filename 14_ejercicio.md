@@ -5,9 +5,9 @@ _**Tema**_: _strings_
 
 Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave en minúsculas y sin espacios. Una vez aceptada la frase y la clave se ha de visualizar un menú con la siguientes opciones:
 
-1. cifrado
-2. descifrado
-3. salir
+    1) cifrado
+    2) descifrado
+    3) salir
 
 
 1. Cifrado:
