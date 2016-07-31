@@ -20,12 +20,18 @@ Leer un archivo .txt y contabilizar el número de cada vocal que contiene el arc
 
 > Ingrese el nombre del archivo: archivo.txt
 >
+>
 > _archivo.txt_
-> > A  I OU
-> > I
-> > ai
-> > i
-> > I
+>
+> A I O U
+>
+> I
+>
+> ai
+>
+> i
+>
+> I
 
 ### Salida 0
 
