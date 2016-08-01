@@ -1,6 +1,7 @@
 FILES = 00.1_legal.md \
 	    00.2_agredecimiento.md \
 	    01_prologo.md \
+		02_ejercicio.md \
 	    03_ejercicio.md \
 	    04_ejercicio.md \
 	    05_ejercicio.md \
