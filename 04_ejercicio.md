@@ -2,7 +2,7 @@
 
 _**Temas**_: _bucles_
 
-Bob ama el chocolate, y se dirige a la tienda con **$N**. El precio de cada chocolate es **$C**. La tienda ofrece un descuento: por cada **M** envolturas, recibes un chocolate gratis. ¿Cuántos chocolates puede obtener Bob?
+Bob ama el chocolate, y se dirige a la tienda con **$N**. El precio de cada chocolate es **$C**. La tienda ofrece un descuento: por cada **M** envolturas, recibes un chocolate gratis. ¿Cuántos chocolates puede obtener Bob?.
 
 ## Entrada
 

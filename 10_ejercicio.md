@@ -74,15 +74,15 @@ void imprime(int);
 
 
 int main(){
-  	int nmatriz,base;
+      int nmatriz,base;
     int exponente=1, numero=0,fila=0,columna=0;
     printf(" Ingrese numero de la matriz: ");
-	scanf("%d",&nmatriz);
+    scanf("%d",&nmatriz);
     printf("\n Ingrese numero de base: ");
-	scanf("%d",&base);
+    scanf("%d",&base);
     recorrido(numero,exponente,nmatriz,base,fila,columna);
     imprime(nmatriz);
-	return 0;
+    return 0;
 }
 
 int recorrido(

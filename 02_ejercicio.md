@@ -22,7 +22,7 @@ for (int i = n; i > 0; i /= 2) {
 
 ```
 
-### Solución
+### Solución A
 
 `O(ln(n))`
 
@@ -44,7 +44,7 @@ for (int i = 1; i < n; i *= 2) {
 
 ```
 
-### Solución
+### Solución B
 
 `O(ln(n))`
 
@@ -65,7 +65,7 @@ while (k < n) {
 
 ```
 
-### Solución
+### Solución C
 
 `O(ln(n))`
 
@@ -89,6 +89,6 @@ for (int i = 0; i < n; i++) {
 
 ```
 
-### Solución
+### Solución D
 
 `O(n^3)`

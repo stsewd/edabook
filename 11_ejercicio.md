@@ -36,39 +36,39 @@ Realizar un programa que reciba una palabra o frase y que se construya una trian
 # include <string.h>
 
 void espacios(int numero){
-	int i=0;
-	for(i=0;i<numero;i++){
-		printf(" ");
-	}
+    int i=0;
+    for(i=0;i<numero;i++){
+        printf(" ");
+    }
 }
 
 void triangulo(char frase[100]){
-	int j,cantidad=0,distancia;
-	cantidad=strlen(frase);
-	distancia=cantidad-1;
-	for(j=0;j<cantidad-1;j++){
-		espacios(distancia);
-		printf("%c",frase[j]);
-		espacios(1+((j-1)*2));
-		if(j!=0){
-			printf("%c",frase[j]);
-		}
-		distancia-=1;
-		printf("\n");
-	}
-	for(j=cantidad-1;j>0;j--){
-		printf("%c",frase[j]);
-	}
-	printf("%s",frase);
+    int j,cantidad=0,distancia;
+    cantidad=strlen(frase);
+    distancia=cantidad-1;
+    for(j=0;j<cantidad-1;j++){
+        espacios(distancia);
+        printf("%c",frase[j]);
+        espacios(1+((j-1)*2));
+        if(j!=0){
+            printf("%c",frase[j]);
+        }
+        distancia-=1;
+        printf("\n");
+    }
+    for(j=cantidad-1;j>0;j--){
+        printf("%c",frase[j]);
+    }
+    printf("%s",frase);
 }
 
 int main (){
-	char frase[100];
-	int i,j, cantidad=0;
-	printf("Ingrese la frase: ");
-	gets(frase);
-	cantidad=strlen(frase);
-	triangulo(frase);
+    char frase[100];
+    int i,j, cantidad=0;
+    printf("Ingrese la frase: ");
+    gets(frase);
+    cantidad=strlen(frase);
+    triangulo(frase);
 }
 
 ```

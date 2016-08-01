@@ -8,17 +8,17 @@ Poco después, Sherlock recibe una nota de Moriarty alarde de infectar La bestia
 
 Un **número decente** tiene las siguientes propiedades:
 
-1. Los digitos solo pueden ser 3 y/o 5.
-2. El número que contiene 3, solo es divisible para 5.
-3. El número que contiene 5, solo es divisible para 3.
-4. Si hay más de uno de esos números, se elige el más grande.
+1.  Los digitos solo pueden ser 3 y/o 5.
+2.  El número que contiene 3, solo es divisible para 5.
+3.  El número que contiene 5, solo es divisible para 3.
+4.  Si hay más de uno de esos números, se elige el más grande.
 
 El **virus** de Moriarty tiene un reloj de cuenta regresiva para la destrucción de la bestia, y el tiempo se acaba rápido. La tarea es ayudar a Sherlock encontrar la **llave** antes de la bestia es destruida!.
 
 ## Entrada
 
 > En la primera linea se ingresa un entero T, el cual va ser el número de casos de prueba que se va a realizar.
-
+>
 > Las líneas posteriores T contienen cada uno un número entero, N, detallando el número de dígitos del número.
 
 ## Salida
@@ -32,23 +32,23 @@ El **virus** de Moriarty tiene un reloj de cuenta regresiva para la destrucción
 ### Entrada 0
 
 > 4
-
+>
 > 1
-
+>
 > 3
-
+>
 > 5
-
+>
 > 11
 
 ### Salida 0
 
 > -1
-
+>
 > 555
-
+>
 > 33333
-
+>
 > 55555533333
 
 ---

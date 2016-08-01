@@ -2,52 +2,50 @@
 
 _**Tema**_: _strings_
 
-
 Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave en minúsculas y sin espacios. Una vez aceptada la frase y la clave se ha de visualizar un menú con la siguientes opciones:
 
     1) cifrado
     2) descifrado
     3) salir
 
+1.  Cifrado:
 
-1. Cifrado:
-    1. Recibir un mensaje (Texto en Claro, validado solo para minúsculas y sin espacios).
+    1.  Recibir un mensaje (Texto en Claro, validado solo para minúsculas y sin espacios).
         sms = “david”
 
-2. Recibir una clave (K).
-    K = “hola”
-    (En caso que la clave sea más pequeña que el mensaje se rellenará los espacios nuevamente con la clave, hasta que quede empatados cada letra del mensaje con su respectiva letra de la clave).
+    2.  Recibir una clave (K).
+            K = “hola”
+            (En caso que la clave sea más pequeña que el mensaje se rellenará los espacios nuevamente con la clave, hasta que quede empatados cada letra del mensaje con su respectiva letra de la clave).
 
-3. Se contaran los espacios que hay de la letra del mensaje a la letra de su clave correspondiente (espacios).
+    3.  Se contaran los espacios que hay de la letra del mensaje a la letra de su clave correspondiente (espacios).
 
-    - En el ejemplo se cuenta cuantos espacios hay de la letra “d” para llegar a la letra “h”, que es  espacios= 4.
-    - Si espacios<10, entonces se rellenará con un “0”. De manera que cada letra del mensaje sea representado por 2 dígitos. En este caso espacios = “04”.
-    - Mismo procedimiento para “a” a la “o”
-    - Para la letra “v” a la “l” será --> Espacios = 16
-    - Para la “i” a la “a” del mensaje será --> Espacios = 18
-    - Se continúa con el mismo procedimiento hasta finalizar de procesar el mensaje.
+        -   En el ejemplo se cuenta cuantos espacios hay de la letra “d” para llegar a la letra “h”, que es  espacios= 4.
+        -   Si espacios<10, entonces se rellenará con un “0”. De manera que cada letra del mensaje sea representado por 2 dígitos. En este caso espacios = “04”.
+        -   Mismo procedimiento para “a” a la “o”
+        -   Para la letra “v” a la “l” será --> Espacios = 16
+        -   Para la “i” a la “a” del mensaje será --> Espacios = 18
+        -   Se continúa con el mismo procedimiento hasta finalizar de procesar el mensaje.
 
-4. Se mostrara por pantalla el mensaje cifrado:  “Mensaje cifrado: 0414161804”
+    4.  Se mostrara por pantalla el mensaje cifrado:  “Mensaje cifrado: 0414161804”
 
-2. Descifrado:
-    1.	Se recibirá un mensaje cifrado = “0414161804”
-    2.	Se recibirá la clave k de descifrado = “hola”.
-    3.	Se mostrará por pantalla el texto en claro “david”.
+2.  Descifrado:
 
+    1.  Se recibirá un mensaje cifrado = “0414161804”
+    2.  Se recibirá la clave k de descifrado = “hola”.
+    3.  Se mostrará por pantalla el texto en claro “david”.
 
 ## Entrada
 
 > Cifrado:
 >
 > > mensaje
->
+> >
 > > clave
-
 
 > Descifrado:
 >
 > > mensaje
->
+> >
 > > clave
 
 ## Salida
@@ -55,7 +53,6 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave
 > Cifrado:
 >
 > > mensaje cifrado
-
 
 > Descifrado:
 >
@@ -66,12 +63,12 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave
 ## Ejemplos
 
 ### Entrada 0
+
 > Cifrado:
 >
 > > mensaje: david
->
+> >
 > > clave: hola
-
 
 ### Salida 0
 
@@ -84,9 +81,8 @@ Se pide desarrollar un algoritmo que solicite una frase por pantalla y una clave
 > Descifrado:
 >
 > > mensaje: 0414161804
->
+> >
 > > clave: hola
-
 
 ### Salida 1
 

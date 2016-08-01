@@ -2,9 +2,7 @@
 
 _**Tema**_: _condicionales_
 
-
 Se pide desarrollar un algoritmo que lea tres números y determine si la suma de cualquier pareja de ellos es igual al tercer número. Si se cumple la regla indicada visualizar un mensaje indicando que se cumple y sino indicando que no se cumple.
-
 
 ## Entrada
 
@@ -59,7 +57,7 @@ int main(int argc, char *argv[]){
 
     printf("Teclee No. 2 : ");
     scanf(" %d",&Numero2);
-    
+
     printf("Teclee No. 3 : ");
     scanf(" %d",&Numero3);
 

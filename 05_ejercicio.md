@@ -2,7 +2,7 @@
 
 _**Temas**_: _aritmética modular_, _matemáticas_
 
-En una cárcel hay **N** prisioneros, y cada uno tiene un identificador único **S**, en el rango de **1** a **N**. Hay **M** caramelos que deben ser entregados a cada prisionero. Dado que no siempre el número de caramelos es igual al de prisioneros, se decide sentar a los prisioneros en un círculo, ordenados por su id. Y se distribuyen los caramelos consecutivamente empezando por un id **S** aleatorio hasta que se terminen los caramelos. Pero hay una trampa, ¡el último caramelo está envenenado! ¿Puedes encontrar el id del prisionero que reciba el último caramelo, y así ser advertido?
+En una cárcel hay **N** prisioneros, y cada uno tiene un identificador único **S**, en el rango de **1** a **N**. Hay **M** caramelos que deben ser entregados a cada prisionero. Dado que no siempre el número de caramelos es igual al de prisioneros, se decide sentar a los prisioneros en un círculo, ordenados por su id. Y se distribuyen los caramelos consecutivamente empezando por un id **S** aleatorio hasta que se terminen los caramelos. Pero hay una trampa, ¡el último caramelo está envenenado! ¿Puedes encontrar el id del prisionero que reciba el último caramelo, y así ser advertido?.
 
 ## Entrada
 

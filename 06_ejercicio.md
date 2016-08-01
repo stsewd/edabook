@@ -31,7 +31,7 @@ Se pide crear una matriz caracol, que consiste en ingresar el el número de fila
 ### Entrada 1
 
 > 5
-> 
+>
 > 5
 
 ### Salida 1
@@ -68,90 +68,62 @@ void generarMatriz(n){
     int tamanioTotal = n*m,cont = 0;
     int matrizCaracol[n][m];
 
- 	for(j = 0; j<m ; j++ ){
-
- 		num_act +=  1;
- 		matrizCaracol[0][j] = num_act;
-
-	 }
-	 j -= 1;
+    for(j = 0; j<m ; j++ ){
+        num_act +=  1;
+        matrizCaracol[0][j] = num_act;
+    }
+    j -= 1;
 
 
     while(num_act<tamanioTotal){
+        k -= 1;
+        cont = 0;
+        while((k > cont) && (l>0)){
+            num_act +=  1;
+            i += 1;
+            matrizCaracol[i][j] = num_act;
+            cont += 1;
+        }
 
-    	k -= 1;
-    	cont = 0;
-    	while((k > cont) && (l>0)){
+        l -= 1;
+        cont = 0;
+        while((l > cont) && (k>0)){
+            num_act +=  1;
+            j -= 1;
+            matrizCaracol[i][j] = num_act;
+            cont += 1;
+        }
 
-    		num_act +=  1;
-    		i += 1;
-    		matrizCaracol[i][j] = num_act;
-    		cont += 1;
+        k -= 1;
+        cont = 0;
+        while((k > cont) && (l>0)){
+            num_act +=  1;
+            i -= 1;
+            matrizCaracol[i][j] = num_act;
+            cont += 1;
+        }
 
-		}
-
-		l -= 1;
-		cont = 0;
-		while((l > cont) && (k>0)){
-
-    		num_act +=  1;
-    		j -= 1;
-    		matrizCaracol[i][j] = num_act;
-    		cont += 1;
-
-		}
-
-		k -= 1;
-		cont = 0;
-		while((k > cont) && (l>0)){
-
-    		num_act +=  1;
-    		i -= 1;
-    		matrizCaracol[i][j] = num_act;
-    		cont += 1;
-
-		}
-
-		l -= 1;		
-		cont = 0;
-		while((l > cont) && (k>0)){
-
-    		num_act +=  1;
-    		j += 1;
-    		matrizCaracol[i][j] = num_act;
-    		cont += 1;
-
-		}
-
-
+        l -= 1;
+        cont = 0;
+        while((l > cont) && (k>0)){
+            num_act +=  1;
+            j += 1;
+            matrizCaracol[i][j] = num_act;
+            cont += 1;
+        }
     }
 
     for(i = 0; i<n ; i++ ){
-
- 		for(j = 0; j<m ; j++ ){
-
- 			if(matrizCaracol[i][j] < 10){
-
- 				printf("|  %d|",matrizCaracol[i][j]);
-
-			}
-			else if (matrizCaracol[i][j] < 100){
-
-
-				printf("| %d|",matrizCaracol[i][j]);
-
-			}else{
-
-				printf("|%d|",matrizCaracol[i][j]);
-
-			}
-
-
- 		}
- 		printf("\n");
-
-	 }
-
+        for(j = 0; j<m ; j++ ){
+            if(matrizCaracol[i][j] < 10)
+                printf("|  %d|",matrizCaracol[i][j]);
+            else if (matrizCaracol[i][j] < 100)
+                printf("| %d|",matrizCaracol[i][j]);
+            else
+                printf("|%d|",matrizCaracol[i][j]);
+        }
+        printf("\n");
+    }
 }
 
 ```

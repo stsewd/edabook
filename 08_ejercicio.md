@@ -1,4 +1,4 @@
-# Triángulo de asteriscos
+# Triángulo de asteríscos
 
 _**Temas**_: _recursividad_
 
@@ -89,45 +89,33 @@ Se desea formar un triangulo de altura **h**, con una base de **(2x8)-1**. Este 
 #include <stdio.h>
 
 void mostrar(int n){
-
-	if(n == 0){
-
-		printf("\n");
-		return;
-
-	}else{
-
-		printf("*");
-		mostrar(n-1);
-
-	}
-
+    if(n == 0){
+        printf("\n");
+        return;
+    } else {
+        printf("*");
+        mostrar(n-1);
+    }
 }
 
 void triangulo(int n,int h){
-
-	if(h == 0){
-
-		return;
-
-	}else{
-
-		mostrar(n-h);
-		triangulo(n,h-1);
-		mostrar(n-h+1);
-
-	}
-
+    if (h == 0) {
+        return;
+    } else {
+        mostrar(n-h);
+        triangulo(n,h-1);
+        mostrar(n-h+1);
+    }
 }
 
-int main(){
 
-	int h;
-	printf("Ingrese la altura del triangulo: ");
+int main(){
+    int h;
+    printf("Ingrese la altura del triangulo: ");
     scanf("%d",&h);
     triangulo(h,h);
-	return 0;
 
+    return 0;
 }
 
 ```

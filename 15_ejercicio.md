@@ -6,15 +6,15 @@ Dado un grafo no dirigido que consta de N nodos (etiquetados 1 a N) , donde un d
 
 Se requiere para el cálculo de la distancia más corta desde la posición de inicio ( nodo S ) para todos los otros nodos en el grafo.
 
-- Si un nodo es inalcanzable, la distancia se asume como -1.
-- La longitud de cada borde en el grafo es de 6 unidades.
+-   Si un nodo es inalcanzable, la distancia se asume como -1.
+-   La longitud de cada borde en el grafo es de 6 unidades.
 
 ## Restriciones
 
 > `1<= T <=10`
 >
 > `2<= N <=1000`
-<
+>
 > `1<= M <= (N x (N-1))/2`
 >
 > `1<= x,y,S <=N`
@@ -22,17 +22,17 @@ Se requiere para el cálculo de la distancia más corta desde la posición de in
 ## Entrada
 
 > En la primera linea se ingresa un entero T, el cual va ser el número de casos de prueba que se va a realizar.
-
+>
 > La primera línea de cada caso de prueba tiene dos enteros N , que denota el número de nodos en el grafo y M , que indica el número de aristas en el grafo.
-
+>
 > Las siguientes líneas M se componen cada uno de dos números enteros separados por espacios x y, donde x e y denotan los dos nodos entre los que existe el borde .
-
+>
 >la última línea de un caso de prueba tiene un entero S , que indica la posición de partida .
 
 ## Salida
 
 > Para cada uno de los casos de prueba T, imprimir una sola línea que consiste en N - 1 enteros separados por espacios , que denota las distancias más cortas de los nodos N - 1 desde la posición de partida S. Esto se hará para todos los mismos nodos como en el orden de entrada 1 a N.
-
+>
 > Para los nodos inalcanzables, se imprime -1.
 
 ---

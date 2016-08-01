@@ -30,9 +30,9 @@ Se numera el alfabeto del 1 al 26. A cada letra se asigna su correspondiente nú
 ### Explicación
 
 > Si colocamos la clave “uno” debajo del mensaje a cifrar, tenemos:
-
+>
 > Si reemplazamos cada carácter de la clave por su valor numérico, se tiene:
-
+>
 > Si desplazamos cada carácter del texto a cifrar el número dado en la tabla anterior, es decir, a “h“ la desplazamos 22 posiciones (volviendo a empezar desde la “a” en caso de sobrepasar la “z“), dando “c” como resultado. Realizamos este procedimiento con el resto de letras, al final se tiene que el mensaje cifrado es “ccavajird”.
 
 ### Entrada 1

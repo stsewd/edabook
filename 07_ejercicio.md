@@ -93,7 +93,6 @@ void ver_dirgido(){
 }
 
 void leer_pesos(){
-
     int i,j;
     for(i=0;i<numero_nodos;i++){
         for(j=0;j<numero_nodos;j++){
@@ -101,10 +100,9 @@ void leer_pesos(){
             scanf("%d",&matriz_adyacencia[i][j]);
         }
     }
-
 }
-void mostrar_matriz_pesos(){
 
+void mostrar_matriz_pesos(){
     int i,j;
     printf("\nMatriz de Adyacencia\n\n");
     for(i=0;i<numero_nodos;i++){
@@ -113,12 +111,10 @@ void mostrar_matriz_pesos(){
         }
         printf("\n");
     }
-
 }
 
 
 int main(){
-
     printf("Ingrese el numero de nodos:");
     scanf("%d",&numero_nodos);
     while(numero_nodos<1 || numero_nodos>4){
@@ -128,9 +124,8 @@ int main(){
     leer_pesos();
     mostrar_matriz_pesos();
     ver_dirgido();
-    system("pause");
+    
     return 0;
-
 }
 
 ```
