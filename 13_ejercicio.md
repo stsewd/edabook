@@ -1,4 +1,4 @@
-# Verificar Suma
+# Verificar suma
 
 _**Tema**_: _condicionales_
 

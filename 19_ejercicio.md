@@ -1,4 +1,4 @@
-# Criba de Erastótenes
+# Criba de Eratóstenes
 
 _**Temas**_: _arrays_, _matemáticas_, _números primos_
 
