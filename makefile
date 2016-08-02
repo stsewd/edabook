@@ -21,7 +21,8 @@ FILES = 00.1_legal.md \
 	    18_ejercicio.md \
 	    19_ejercicio.md \
 	    20_ejercicio.md \
-	    21_ejercicio.md
+	    21_ejercicio.md \
+		99_referencias.md
 
 OUTPUT = build/edabook.pdf
 
